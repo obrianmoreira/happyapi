@@ -31,5 +31,5 @@ app.post("https://happyapi-cleaning.vercel.app/", (req, res) =>{
         phone: req.body.phone
     })
     newLead.save();
-    res.redirect("http://happyapp-cleaning.vercel.app");
+    res.redirect("https://happyapp-cleaning.vercel.app/");
 })
